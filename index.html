@@ -119,7 +119,7 @@
 <body>
   <section id="scrolly-images" class="scrolly-container">
     <div class="sticky-thing">
-      <img src="final1.png">
+      <img src="final1.jpg">
     </div>
     <div class="steps-container">
       <div class="step" id="step1">
@@ -278,15 +278,15 @@
     This part sets up your actions. In this case, it's changing the image in the scrolly container.
     */
     d3.select("#step1").on('stepin', (e) => {
-      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "final1.png")
+      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "final1.jpg")
     })
 
     d3.select("#step2").on('stepin', (e) => {
-      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "final2.png")
+      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "final2.jpg")
     })
 
     d3.select("#step3").on('stepin', (e) => {
-      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "final3.png")
+      d3.select(e.target.closest(".scrolly-container")).select("img").attr("src", "final3.jpg")
     })
   </script>
   <style>
